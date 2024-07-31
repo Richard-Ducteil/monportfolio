@@ -1,10 +1,10 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import { SparklesIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
+import React from "react";
+import { motion } from "framer-motion";
+import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import { SparklesIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const HeroContent = () => {
   return (
@@ -27,7 +27,9 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           Développeur Frontend
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">The best</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            The best
+          </span>
           Projet Expérience
         </motion.div>
 
@@ -35,7 +37,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Je suis développeur Frontend débutant passionné par la création d'expériences utilisateur intuitives et engageantes. Récemment diplômé en informatique, j'ai acquis des compétences solides en HTML, CSS, et JavaScript, ainsi qu'une compréhension de frameworks comme React et Next.js.
+          Je suis développeur Frontend débutant passionné par la création
+          d&apos;expériences utilisateur intuitives et engageantes. Récemment diplômé
+          en informatique, j&apos;ai acquis des compétences solides en HTML, CSS, et
+          JavaScript, ainsi qu&apos;une compréhension de frameworks comme React et
+          Next.js
         </motion.p>
 
         <motion.a
